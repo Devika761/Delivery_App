@@ -6,9 +6,10 @@
   "author": "first project full stack",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "dev": "nodemon index.js"
-  },
+"scripts": {
+  "dev": "nodemon index.js",
+  "start": "node index.js"
+},
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cloudinary": "^2.9.0",
