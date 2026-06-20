@@ -6,7 +6,7 @@ import SignUp from "./pages/signUp";
 import SignIn from "./pages/signIn";
 import ForgotPassword from "./pages/ForgotPassword";
 import Home from "./pages/Home";
-import CreateEditShop from "./pages/createEditShop";
+import CreateEditShop from "./pages/CreateEditShop";
 import AddItem from "./pages/AddItem";
 import EditItem from "./pages/EditItem";
 import CartPage from "./pages/CartPage";
