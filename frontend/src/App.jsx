@@ -26,7 +26,7 @@ import useUpdateLocation from "./hooks/useUpdateLocation";
 
 import { SocketProvider } from "./context/SocketContext";
 
-export const serverUrl = "http://localhost:8000";
+export const serverUrl = "https://backend-5136.onrender.com";
 
 function AppRoutes() {
   useGetCurrentUser();
