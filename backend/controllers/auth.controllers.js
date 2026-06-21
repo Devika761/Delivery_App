@@ -28,9 +28,10 @@ export const signUp=async (req,res) => {
         })
 
         const token=await genToken(user._id)
-      res.cookie("token",token,{
+     res.cookie("token", token, {
     secure:true,
     sameSite:"none",
+    domain:"backend-5136.onrender.com",
     maxAge:7*24*60*60*1000,
     httpOnly:true
 })
@@ -56,9 +57,10 @@ export const signIn=async (req,res) => {
      }
 
         const token=await genToken(user._id)
-    res.cookie("token",token,{
+    res.cookie("token", token, {
     secure:true,
     sameSite:"none",
+    domain:"backend-5136.onrender.com",
     maxAge:7*24*60*60*1000,
     httpOnly:true
 })
@@ -143,9 +145,10 @@ export const googleAuth=async (req,res) => {
         }
 
         const token=await genToken(user._id)
-      res.cookie("token",token,{
+      res.cookie("token", token, {
     secure:true,
     sameSite:"none",
+    domain:"backend-5136.onrender.com",
     maxAge:7*24*60*60*1000,
     httpOnly:true
 })
